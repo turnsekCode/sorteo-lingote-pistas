@@ -183,7 +183,7 @@
 }
 @media (min-width: 1191px) {
     .contenedorMain {
-            background-image: url(/assets/fondoCombinado.png), url(/assets/fondoCeleste.png);
+            background-image: url(https://quickgold.es/fondoCombinado.png), url(https://quickgold.es/fondoCeleste.png);
             background-size: cover;
             color: #000;
             height: 100vh;

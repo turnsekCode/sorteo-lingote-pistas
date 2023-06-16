@@ -6,13 +6,12 @@ const Gracias = () => {
   return (
     <>
       <div className={styles.cabecera}>
-        <Image
+        <img
           src="/assets/logo.png"
           alt="Fondo"
           className={styles.imagenLogo}
           width={163}
           height={30}
-          priority
         />
       </div>
       <main className={styles.contenedorMain}>
@@ -20,13 +19,12 @@ const Gracias = () => {
           <div className={styles.tituloGracias}>
             <h2>¡GRACIAS!</h2>
           </div>
-          <Image
+          <img
             src="/assets/imagenPersonasGracias.png"
             alt="Fondo"
             className={styles.imagenPersonas}
             width={341}
             height={427}
-            priority
           />
 
           <div className={styles.contenedorTexto}>
@@ -40,13 +38,12 @@ const Gracias = () => {
               anunciaremos el ganador o ganadora.
             </p>
             <a href="https://www.instagram.com/quickgold.es/">
-              <Image
+              <img
                 src="/assets/imagenInstagram.png"
                 alt="Fondo"
                 className={styles.imagenInstagram}
                 width={173}
                 height={58}
-                priority
               />
             </a>
           </div>

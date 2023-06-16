@@ -79,25 +79,23 @@ const Home = () => {
   return (
     <>
       <div className={styles.cabecera}>
-        <Image
+        <img
           src="/assets/logo.png"
           alt="Fondo"
           className={styles.imagenLogo}
           width={163}
           height={30}
-          priority
         />
       </div>
       <main className={styles.contenedorMain}>
         <div className={styles.contenedor}>
           <div className={styles.contenedorTexto}>
-            <Image
+            <img
               src="/assets/imagenGlobo.png"
               alt="Fondo"
               className={styles.imagenGlobo}
               width={127}
               height={171}
-              priority
             />
             <h2>¡ENHORABUENA!</h2>
             <p>
@@ -132,7 +130,7 @@ const Home = () => {
                   />
                 </FormControl>
               </div>
-              <Image
+              <img
                 src="/assets/imagenPerson.png"
                 alt="Fondo"
                 className={styles.imagenPersona}
