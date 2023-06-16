@@ -1,0 +1,384 @@
+.contenedorMain{
+    background-size: cover;
+    color: #000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background: #036F9A;
+    z-index: 3;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background: #036F9A;
+    width: 100%;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+    bottom: 0;
+}
+.fondoCeleste, .imagenCombinado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 107vh;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 13px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.contenedorFormulario{
+    width: 360px;
+    background: #0F2D45;
+    border-radius: 13px;
+    padding: 20px;
+    margin: 0 auto 30px;
+}
+.contenedorFormulario input{
+    background: #FFFFFF;
+    border: 1px solid #213E58;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;   
+    padding: 0 0 0 40px;
+}
+.contenedorFormulario input::placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #0F2D45;
+}
+.contenedorFormulario h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0 45px 0;
+    padding: 0 50px;
+}
+.contenedorFormulario span{
+    font-size: 10px;
+    margin: 20px 5px;
+}
+.contenedorTexto{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contenedorTexto h2, .contenedorTexto p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #0F2D45;
+    margin-bottom: 30px;
+}
+.contenedorTexto p:nth-child(3) {
+    margin-bottom: 110px;
+}
+.imagenGlobo{
+    position: absolute;
+    top: 220px;
+    left: 163px;
+    width: 15%;
+}
+.contenedorPistas{
+    background: #FFFFFF;
+    border: 1px solid #213E58;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 261px;
+    height: 48px;
+}
+.contenedorPistas p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #213E58;
+    margin: 0;
+}
+.contenedorFormPistas{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.imagenPersona{
+    position: absolute;
+    right: 0px;
+    top: 59px;
+    z-index: 0;
+    width: 20%;
+}
+.contenedorInputPistas input::placeholder{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+ 
+   
+}
+.linea {
+    position: relative;
+    display: inline-block;
+}
+
+.linea:before {
+    content: '';
+    width: 100%;
+    z-index: -1;
+    border-bottom: 7px solid #FBBE00;
+    position: absolute;
+    display: block;
+    height: 5px;
+    transform: translateY(156%);
+}
+
+.linea:before {
+    left: 2px;
+    top: calc(50% - 1px);
+}
+.linkPoliticas:hover{
+    text-decoration: underline;
+}
+.linkPoliticas {
+    font-weight: 700;
+}
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorFormulario svg {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    z-index: 2;
+    color: #0F2D45;
+}
+@media (min-width: 1191px) {
+    .contenedorMain {
+            background-image: url(/assets/fondoCombinado.png), url(/assets/fondoCeleste.png);
+            background-size: cover;
+            color: #000;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+    
+        .cabecera {
+            width: 100%;
+            height: 100px;
+            background: #036F9A;
+            z-index: 3;
+            position: relative;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .footer {
+            background: #036F9A;
+            width: 100%;
+            height: 80px;
+            z-index: 3;
+            position: relative;
+            bottom: 0;
+        }
+    
+        .fondoCeleste,
+        .imagenCombinado {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 107vh;
+        }
+    
+        .contenedor {
+            width: 1000px;
+            height: auto;
+            background: #FFFFFF;
+            mix-blend-mode: normal;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+            border-radius: 13px;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .contenedorFormulario {
+            width: 360px;
+            background: #0F2D45;
+            border-radius: 13px;
+            padding: 20px;
+            margin: 0;
+        }
+    
+        .contenedorFormulario input {
+            background: #FFFFFF;
+            border: 1px solid #213E58;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 13px;
+            padding: 0 0 0 40px;
+        }
+    
+        .contenedorFormulario input::placeholder {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            color: #0F2D45;
+           
+        }
+    
+        .contenedorFormulario h2 {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 20px 0 45px 0;
+        }
+    
+        .contenedorFormulario span {
+            font-size: 10px;
+            margin: 20px 5px;
+        }
+    
+        .contenedorTexto {
+            width: 100%;
+            padding: 30px 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+    
+        .contenedorTexto h2,
+        .contenedorTexto p {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 29px;
+            text-align: center;
+            color: #0F2D45;
+            margin-bottom: 30px;
+        }
+    
+        .imagenGlobo {
+            position: absolute;
+            top: -86px;
+            left: 40px;
+        }
+    
+        .contenedorPistas {
+            background: #FFFFFF;
+            border: 1px solid #213E58;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 261px;
+            height: 48px;
+        }
+    
+        .contenedorPistas p {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 17px;
+            text-align: center;
+            color: #213E58;
+            margin: 0;
+        }
+    
+        .contenedorFormPistas {
+            display: flex;
+            gap: 10px;
+            position: relative;
+        }
+    
+        .imagenPersona {
+            position: absolute;
+            right: -105px;
+            top: -30px;
+            z-index: -1;
+            width: 30%;
+        }
+    
+        .contenedorInputPistas input::placeholder {
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+    
+        }
+    
+        .linea {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .linea:before {
+            content: '';
+            width: 100%;
+            z-index: -1;
+            border-bottom: 7px solid #FBBE00;
+            position: absolute;
+            display: block;
+            height: 5px;
+            transform: translateY(156%);
+        }
+    
+        .linea:before {
+            left: 2px;
+            top: calc(50% - 1px);
+        }
+    
+        .linkPoliticas:hover {
+            text-decoration: underline;
+        }
+    
+        .linkPoliticas {
+            font-weight: 700;
+        }
+        .contenedorFormulario svg{
+            position: absolute;
+            top: 9px;
+            left: 8px;
+            z-index: 2;
+            color: #0F2D45;
+        }
+        .contenedorTexto p:nth-child(3) {
+            margin-bottom: 50px;
+        }
+}
