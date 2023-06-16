@@ -80,7 +80,7 @@ const Home = () => {
     <>
       <div className={styles.cabecera}>
         <img
-          src="/assets/logo.png"
+          src="https://quickgold.es/logo.png"
           alt="Fondo"
           className={styles.imagenLogo}
           width={163}
@@ -91,7 +91,7 @@ const Home = () => {
         <div className={styles.contenedor}>
           <div className={styles.contenedorTexto}>
             <img
-              src="/assets/imagenGlobo.png"
+              src="https://quickgold.es/imagenGlobo.png"
               alt="Fondo"
               className={styles.imagenGlobo}
               width={127}
@@ -131,12 +131,11 @@ const Home = () => {
                 </FormControl>
               </div>
               <img
-                src="/assets/imagenPerson.png"
+                src="https://quickgold.es/imagenPerson.png"
                 alt="Fondo"
                 className={styles.imagenPersona}
                 width={102}
                 height={137}
-                priority
               />
             </div>
           </div>

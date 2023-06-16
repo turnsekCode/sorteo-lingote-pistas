@@ -7,7 +7,7 @@ const Gracias = () => {
     <>
       <div className={styles.cabecera}>
         <img
-          src="/assets/logo.png"
+          src="https://quickgold.es/logo.png"
           alt="Fondo"
           className={styles.imagenLogo}
           width={163}
@@ -20,7 +20,7 @@ const Gracias = () => {
             <h2>¡GRACIAS!</h2>
           </div>
           <img
-            src="/assets/imagenPersonasGracias.png"
+            src="https://quickgold.es/imagenPersonasGracias.png"
             alt="Fondo"
             className={styles.imagenPersonas}
             width={341}
@@ -39,7 +39,7 @@ const Gracias = () => {
             </p>
             <a href="https://www.instagram.com/quickgold.es/">
               <img
-                src="/assets/imagenInstagram.png"
+                src="https://quickgold.es/imagenInstagram.png"
                 alt="Fondo"
                 className={styles.imagenInstagram}
                 width={173}
