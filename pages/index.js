@@ -211,6 +211,13 @@ const Home = () => {
               </a>
             </Checkbox>
             <FormErrorMessage>Required</FormErrorMessage>
+            <a
+              className={styles.basesLegales}
+              target="_blank"
+              href="https://quickgold.es/bases-legales-sorteo-lingote/"
+            >
+              Bases legales del sorteo
+            </a>
             <div className={styles.contenedorBoton}>
               <Button
                 background=" #E83C82"

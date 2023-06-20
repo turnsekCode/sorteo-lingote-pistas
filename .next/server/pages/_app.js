@@ -50,10 +50,16 @@ const theme = (0,react_.extendTheme)({
 
 
 function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx(react_.ChakraProvider, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
-        })
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.ChakraProvider, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "robots",
+                content: "noindex"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
+        ]
     });
 }
 /* harmony default export */ const _app = (MyApp);
