@@ -63,7 +63,7 @@ const Home = () => {
       setState(initState);
       router.push("/gracias");
       toast({
-        title: "Message sent",
+        title: "Mensaje enviado",
         status: "success",
         duration: 2000,
         position: "top",

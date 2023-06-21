@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/api/bd": "pages/api/bd.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.html",
   "/api/sorteo": "pages/api/sorteo.js",
-  "/api/contact": "pages/api/contact.js",
   "/gracias": "pages/gracias.html",
+  "/api/contact": "pages/api/contact.js",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

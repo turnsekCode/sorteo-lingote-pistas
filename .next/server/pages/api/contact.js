@@ -74,7 +74,7 @@ const transporter = external_nodemailer_default().createTransport({
 });
 const mailOptions = {
     from: email,
-    to: email
+    to: "sem@quickgold.es, dev@quickgold.es"
 };
 
 ;// CONCATENATED MODULE: ./pages/api/contact.js
