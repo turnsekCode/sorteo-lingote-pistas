@@ -122,7 +122,8 @@ const Home = () => {
                     color="#fff"
                     height="51px"
                     className={styles.inputPista}
-                    type="text"
+                    type="number"
+                    inputMode="numeric"
                     name="subject"
                     value={values.subject}
                     onChange={handleChange}
@@ -155,7 +156,7 @@ const Home = () => {
               <AccountCircleIcon />
               <Input
                 type="text"
-                placeholder="Nombre y Apellido *"
+                placeholder="Nombre y Apellidos *"
                 name="name"
                 errorBorderColor="red.300"
                 value={values.name}
@@ -172,7 +173,8 @@ const Home = () => {
               <LocalPhoneRoundedIcon />
               <Input
                 placeholder="Teléfono *"
-                type="text"
+                type="number"
+                inputMode="numeric"
                 name="message"
                 rows={4}
                 value={values.message}
