@@ -1,0 +1,210 @@
+.cabecera {
+    width: 100%;
+    height: 100px;
+    background: #036F9A;
+    z-index: 3;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background: #036F9A;
+    width: 100%;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+    bottom: 0;
+}
+.contenedorMain {
+    background: #CFEFF9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    color: #000;
+    height: 108vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.contenedor {
+    width: 345px;
+    height: 740px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 13px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.imagenPersonas{
+    position: absolute;
+    bottom: 15px;
+    right: 84px;
+    width: 50%;
+}
+.contenedorTexto {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imagenInstagram{
+    position: absolute;
+    bottom: -35px;
+    right: 85px;
+}
+.contenedorTexto p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    color: #0F2D45;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.tituloGracias{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 29px;
+    text-align: center;
+    color: #0F2D45;
+    margin: 45px 0 ;
+}
+.linea {
+    position: relative;
+    display: inline-block;
+}
+
+.linea:before {
+    content: '';
+    width: 100%;
+    z-index: -1;
+    border-bottom: 7px solid #FBBE00;
+    position: absolute;
+    display: block;
+    height: 5px;
+    transform: translateY(156%);
+}
+
+.linea:before {
+    left: 2px;
+    top: calc(50% - 1px);
+}
+
+@media (min-width: 1191px) {
+.cabecera {
+        width: 100%;
+        height: 100px;
+        background: #036F9A;
+        z-index: 3;
+        position: relative;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        background: #036F9A;
+        width: 100%;
+        height: 80px;
+        z-index: 3;
+        position: relative;
+        bottom: 0;
+    }
+
+    .contenedorMain {
+        background-image: linear-gradient(180deg, rgba(34, 70, 97, 0.8) 0%, rgba(15, 45, 69, 0.8) 100%), url(/assets/imagenFondoGracias.png);
+        background-size: cover;
+        color: #000;
+        height: 104vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+    }
+
+    .contenedor {
+        width: 1000px;
+        height: 513px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+        border-radius: 13px;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .imagenPersonas {
+        position: absolute;
+        bottom: -120px;
+        right: 48px;
+        width: 36%;
+    }
+
+    .contenedorTexto {
+        width: 58%;
+        padding: 30px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .imagenInstagram {
+        position: absolute;
+        bottom: -18px;
+        right: 85px;
+    }
+
+    .contenedorTexto p {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 29px;
+        color: #0F2D45;
+        margin-bottom: 30px;
+        padding: 0 60px 0 0;
+    }
+
+    .tituloGracias {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 29px;
+        text-align: center;
+        color: #0F2D45;
+        margin: 45px 0;
+    }
+
+    .linea {
+        position: relative;
+        display: inline-block;
+    }
+
+    .linea:before {
+        content: '';
+        width: 100%;
+        z-index: -1;
+        border-bottom: 7px solid #FBBE00;
+        position: absolute;
+        display: block;
+        height: 5px;
+        transform: translateY(156%);
+    }
+
+    .linea:before {
+        left: 2px;
+        top: calc(50% - 1px);
+    }
+}
